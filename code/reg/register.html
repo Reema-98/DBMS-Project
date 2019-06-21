@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register - INDIVIDUAL</title>
+	
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/tooplate.css">
+</head>
+
+<body id="register">
+    <div class="container">
+        <div class="row tm-register-row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 tm-register-col-l">
+                <form action="register.php" method="post">
+                   
+			<div class="input-field">
+                        <input placeholder="Username" id="username" name="username" type="text" class="validate" required>
+                    </div>
+			<div class="input-field">
+                        <input placeholder="Password" id="password" name="password" type="password" class="validate" required>
+                    </div>
+                    <div class="input-field">
+                        <input placeholder="First Name" id="first_name" name="first_name" type="text" class="validate" required>
+                    </div>
+                    <div class="input-field">
+                        <input placeholder="Last Name" id="last_name" name="last_name" type="text" class="validate">
+                    </div>
+                    <div class="input-field">
+                        <input placeholder="Email" id="email" name="email" type="text" class="validate" required>
+                    </div>
+			<div class="input-field">
+                        <input placeholder="Date of Birth" id="dob" name="dob" type="date" class="validate">
+                    </div>
+			<div class="input-field">
+                        <input placeholder="Age" id="age" name="age" type="text" class="validate">
+                    </div>
+                    <div class="input-field">
+                        <input placeholder="Contact Number" id="mobile" name="mobile" type="number" class="validate" required> 
+                    </div>
+                    <div class="input-field">
+                        <input placeholder="House Number/House Name" id="housenumber" name="housenumber" type="text" class="validate">
+                    </div>
+                    <div class="input-field">
+                        <input placeholder="Street" id="street" name="street" type="text" class="validate">
+                    </div>
+                   
+                        <div class="input-field">
+                        <input placeholder="City" id="city" name="city" type="text" class="validate">
+                    </div>
+                            <div class="input-field">
+                                <input placeholder="PIN" id="pin" name="pin" type="number" class="validate" required>
+                            </div>
+			<div class="input-field">
+                                <input placeholder="State" id="state" name="state" type="text" class="validate">
+                            </div>
+			<div class="input-field">
+                                <select name="blood"><option value="A+">A+</option><option value="A-">A-</option><option value="B+">B+</option><option value="B-">B-</option>
+<option value="AB+">AB+</option><option value="AB-">AB-</option><option value="O+">O+</option><option value="O-">O-</option></select>
+                            </div>
+                    <div class="text-right mt-4">
+                        <button type="submit" class="waves-effect btn-large btn-large-white px-4 black-text" style="float:left">SUBMIT</button>
+                    </div>
+                
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 tm-register-col-r">
+                <header class="mb-5">
+                    <h3 class="mt-0 text-white">REGISTER Yourself</h3>
+                    <p class="grey-text">Register yourself to be a part of our services.</p>
+		</header>
+
+<!--QUESTIONAIRE-->
+
+ 
+                    <div class="tm-bg-black tm-form-block">
+                        <p class="mb-4" style="color:#fff;">1.Are you willing to donate blood?</p>
+                        <ul class="ml-3">
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group1" value="yes" type="radio" />
+                                    <span>A. YES</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group1" value="no" type="radio" />
+                                    <span>B. NO</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+		<div class="tm-bg-black tm-form-block">
+                        <p class="mb-4" style="color:#fff;">2.Are you willing to donate for fund raisers?</p>
+                        <ul class="ml-3">
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group2" value="yes" type="radio" />
+                                    <span>A. YES</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group2" value="no" type="radio" />
+                                    <span>B. NO</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+			<div class="tm-bg-black tm-form-block">
+                        <p class="mb-4" style="color:#fff;">3.Are you willing to work for social events?</p>
+                        <ul class="ml-3">
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group3" value="yes" type="radio" />
+                                    <span>A. YES</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class="with-gap" name="group3" value="no" type="radio" />
+                                    <span>B. NO</span>
+                                </label>
+                            </li>
+
+                        </ul>
+                    </div>
+			<div class="tm-bg-black tm-form-block">
+                        <p class="mb-4" style="color:#fff;">4.Do you have any health problems? </p>
+                      	<div class="col-xl-12">
+                                <textarea class="p-3" name="healthproblem" cols="20" rows="4" placeholder="Your description"></textarea>
+                            </div>
+			</div>
+			
+
+	</form>
+
+
+            </div>
+        </div>
+        <footer class="row tm-mt-big mb-3">
+            <div class="col-xl-12">
+                <p class="text-center grey-text text-lighten-2 tm-footer-text-small">
+                    Copyright &copy; HELPING HANDS
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('select').formSelect();
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+html{
+	background-image:url(../images/pic10.jpeg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.fd{
+	font-family: 'ariel';
+	font-weight: bold;
+	font-size: 50px;
+	color:#fff;
+	margin-bottom: 50px;
+}
+
+.f4{
+	color: #eeffff;
+	text-align:right;
+	margin-right: 38%;
+}
+
+input{
+	border:none;
+	background-color: #ddd;
+	margin-top:25px;
+	font-size: 20px;
+}
+
+button{
+	text-align:center;
+	margin:10px auto;
+	background-color: #484a94;
+	color:#fff;
+	border-radius: 20px;
+	border:none;
+	padding: 10px 20px;
+}
+

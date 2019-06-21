@@ -1,0 +1,39 @@
+html{
+	background-image:url(../images/pic19.jpeg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.don{
+	font-family: 'ariel';
+	font-weight: bold;
+	font-size: 50px;
+	color:#000;
+	margin-bottom: 50px;
+}
+
+.f3{
+	color: #005462;
+	text-align:right;
+	margin-right: 38%;
+	font-weight:bold;
+}
+
+input{
+	border:none;
+	background-color: #fff;
+	margin-top:25px;
+	font-size: 20px;
+	border-radius:3px;
+}
+
+button{
+	text-align:center;
+	margin:10px auto;
+	background-color: #bf00d9;
+	color:#fff;
+	border-radius: 20px;
+	border:none;
+	padding: 10px 20px;
+}
+
