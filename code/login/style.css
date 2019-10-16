@@ -42,11 +42,11 @@ thead th, tfoot th {
 }
 
 th {
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 td {
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 tbody td {
@@ -61,7 +61,6 @@ tfoot th {
 thead {
   
   color: white;
-  text-shadow: 1px 1px 1px black;
 }
 
 thead th, tfoot th, tfoot td {
@@ -75,7 +74,7 @@ tbody tr:nth-child(odd) {
 }
 
 tbody tr:nth-child(even) {
-  opacity:0.8;
+  opacity:0.9;
 }
 
 tbody tr {
@@ -91,5 +90,5 @@ caption {
   caption-side: bottom;
   color: #666;
   text-align: right;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
