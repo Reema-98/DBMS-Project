@@ -1,0 +1,56 @@
+body{
+	background-repeat: no-repeat;
+	color:#fff;
+	background-position: center;
+	background-size:cover;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+h1{
+	font-family: lato;
+	text-align:center;
+}
+
+.reg{
+	text-align: right;
+	margin-right:30%;
+}
+
+.f1{
+	font-family:lato;
+	color:#fff;
+	font-size:18px;
+}
+
+#box{
+	margin-bottom:5px;
+}
+
+button{
+	border-radius: 30px;
+	border:none;
+	padding:7px 10px;
+	font-family: 'georgia';
+	color:#010101;
+	margin-right:25%;
+	margin-top:10px;	
+}
+
+input{
+	/*border-top:none;
+	border-right:none;
+	border-left:none;
+	border-bottom:1.8px solid #eee;
+background-color:transparent;
+	border-radius:3px;*/
+	border:none;
+	
+	padding-top:3px;
+	padding-bottom: 3px;
+	width:40%;
+	height:20px;
+}
+
+
